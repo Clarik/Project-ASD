@@ -9,14 +9,13 @@ namespace ProjectASD.View
 {
     public partial class MasterPage : System.Web.UI.MasterPage
     {
+        private String HL_Class = "nav-link ";
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
-        protected void btnHome_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("../Home/HomePage.aspx");
-        }
+        public String HyperLinkHomeClass { set { HyperLinkHome.CssClass = HL_Class + value; }  }
+        public String HyperLinkWeightClass { set { HyperLinkWeight.CssClass = HL_Class + value; } }
+        public String HyperLinkDistanceClass { set { HyperLinkDistance.CssClass = HL_Class + value; } }
     }
 }

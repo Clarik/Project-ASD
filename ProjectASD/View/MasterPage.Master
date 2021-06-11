@@ -5,14 +5,30 @@
 <html>
 <head runat="server">
     <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./Content/Style/Master.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div runat="server" id ="HomeBtn">
-            <asp:Button ID="btnHome" Text="Home" runat="server" OnClick="btnHome_Click"/>
+    <nav class="navbar navbar-red navbar-expand-xl navbar-dark align-items-center">
+        <asp:HyperLink ID="HyperLinkLogo" NavigateUrl="./Home/HomePage.aspx" CssClass="navbar-brand font-weight-bold text-white" Font-Size="XX-Large" runat="server">Basic Converter</asp:HyperLink>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+                <asp:HyperLink ID="HyperLinkHome" NavigateUrl="./Home/HomePage.aspx" CssClass="nav-link" Font-Size="Larger" runat="server">Home <span class="sr-only">(current)</span></asp:HyperLink>
+                <asp:HyperLink ID="HyperLinkWeight" NavigateUrl="./Weight/WeightConverterPage.aspx" CssClass="nav-link" Font-Size="Larger" runat="server">Weight Converter</asp:HyperLink>
+                <asp:HyperLink ID="HyperLinkDistance" NavigateUrl="./Distance/DistanceConverterPage.aspx" CssClass="nav-link" Font-Size="Larger" runat="server">Distance Converter</asp:HyperLink>
+            </div>
         </div>
+    </nav>
+    <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

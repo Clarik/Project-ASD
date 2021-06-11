@@ -12,6 +12,7 @@ namespace ProjectASD.View.Distance
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ((MasterPage)Master).HyperLinkDistanceClass = "active";
             if (!IsPostBack)
             {
                 List<string> unitList = TypeController.getDistanceList();

@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="View\Content\Style\Home.css" />
+    <Content Include="View\Content\Style\Master.css" />
     <Content Include="View\Distance\DistanceConverterPage.aspx" />
     <Content Include="View\Home\HomePage.aspx" />
     <Content Include="View\Weight\WeightConverterPage.aspx" />

@@ -12,6 +12,7 @@ namespace ProjectASD.View.Weight
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ((MasterPage)Master).HyperLinkWeightClass = "active";
             if (!IsPostBack)
             {
                 List<string> unitList = TypeController.getWeightList();
