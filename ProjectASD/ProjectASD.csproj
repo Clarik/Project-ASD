@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="View\Content\Style\DistanceConverter.css" />
     <Content Include="View\Content\Style\Home.css" />
     <Content Include="View\Content\Style\Master.css" />
+    <Content Include="View\Content\Style\WeightConverter.css" />
     <Content Include="View\Distance\DistanceConverterPage.aspx" />
     <Content Include="View\Home\HomePage.aspx" />
     <Content Include="View\Weight\WeightConverterPage.aspx" />
@@ -116,7 +118,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Image\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
