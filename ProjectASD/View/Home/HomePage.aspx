@@ -11,6 +11,10 @@
                 This website is a simple converter application that can handle  
                 two major measurements: <b>Weight</b> and <b>Distance</b>.
             </p>
+            <p class="l">
+                This website is a simple converter application that can handle  
+                two major measurements: <b>Weight</b> and <b>Distance</b>.
+            </p>
             <hr />
             <h2>How to Use the Apps</h2>
             <ol class="ol-guides">
