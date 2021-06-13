@@ -19,11 +19,11 @@ namespace ProjectASD.Controller
         {
             List<string> list = new List<string>();
             list.Add("kilogram (kg)");
-            list.Add("hektogram (hg)");
-            list.Add("dekagram (dag)");
+            list.Add("hectogram (hg)");
+            list.Add("decagram (dag)");
             list.Add("gram (g)");
-            list.Add("desigram (dg)");
-            list.Add("sentigram (cg)");
+            list.Add("decigram (dg)");
+            list.Add("centigram (cg)");
             list.Add("miligram (mg)");
             return list;
         }
@@ -32,11 +32,11 @@ namespace ProjectASD.Controller
         {
             List<string> list = new List<string>();
             list.Add("kilometer (km)");
-            list.Add("hektometer (hm)");
-            list.Add("dekameter (dam)");
+            list.Add("hectometer (hm)");
+            list.Add("decameter (dam)");
             list.Add("meter (m)");
-            list.Add("desimeter (dm)");
-            list.Add("sentimeter (cm)");
+            list.Add("decimeter (dm)");
+            list.Add("centimeter (cm)");
             list.Add("milimeter (mm)");
             return list;
         }
