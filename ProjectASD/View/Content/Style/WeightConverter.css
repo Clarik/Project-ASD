@@ -10,6 +10,8 @@
     flex-direction:column;
     border-style:solid;
     border-radius:12px;
+    margin-top:15px;
+    margin-bottom:20px;
 }
 
 .title {
@@ -45,7 +47,16 @@
     justify-content: space-between;
 }
 
-.button{
+.ddl .ddlBox {
+    width: 165px;
+}
+
+.middle .btnSwap {
+    width: 30px;
+    height: 30px;
+}
+
+.middle .button{
     display:flex;
     justify-content:space-between;
     width:300px;
@@ -61,6 +72,11 @@
     display:flex;
     text-align:center;
     justify-content:center;
+}
+
+.lower .text-upper {
+    font-weight:bold;
+    font-size:20px;
 }
 
 .lower .text-lower{

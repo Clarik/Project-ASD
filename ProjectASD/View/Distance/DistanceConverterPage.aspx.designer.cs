@@ -57,7 +57,7 @@ namespace ProjectASD.View.Distance
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSwap;
+        protected global::System.Web.UI.WebControls.ImageButton btnSwap;
 
         /// <summary>
         /// Label2 control.

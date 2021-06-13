@@ -52,7 +52,7 @@ namespace ProjectASD.View.Distance
             txtAnswer.Text = "";
         }
 
-        protected void btnSwap_Click(object sender, EventArgs e)
+        protected void btnSwap_Click(object sender, ImageClickEventArgs e)
         {
             var temp = ddlFrom.SelectedValue;
             ddlFrom.SelectedValue = ddlTo.SelectedValue;

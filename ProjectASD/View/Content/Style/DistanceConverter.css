@@ -10,6 +10,8 @@
     flex-direction: column;
     border-style: solid;
     border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -45,13 +47,16 @@
     justify-content: space-between;
 }
 
-.middle .btnSwap {
-    background-image: url('../../../Image/SwapImage.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+.ddl .ddlBox {
+    width: 165px;
 }
 
-.button {
+.middle .btnSwap {
+    width:30px;
+    height:30px;
+}
+
+.middle .button {
     display: flex;
     justify-content: space-between;
     width: 300px;
@@ -67,6 +72,11 @@
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.lower .text-upper {
+    font-weight:bold;
+    font-size: 20px;
 }
 
 .lower .text-lower {

@@ -12,10 +12,10 @@
         </div>
         <div class="body mt-4">
             <div class="upper">
-                <h3>Value to convert</h3>
+                <h4>Value to convert</h4>
             </div>
             <div class="middle">
-                <div class="mt-2">
+                <div class="mt-1">
                     <asp:Label ID="InputMessage" runat="server" Text="Input Number" CssClass="inputMessage"></asp:Label>
                 </div>
                 <div class="mt-2">
@@ -23,15 +23,15 @@
                 </div>
                 <div class="ddl ddlFrom mt-2">
                     <asp:Label ID="Label1" runat="server" Text="From : "></asp:Label>
-                    <asp:DropDownList ID="ddlFrom" runat="server" CssClass="btn btn-outline-primary btn-sm"></asp:DropDownList>
+                    <asp:DropDownList ID="ddlFrom" runat="server" CssClass="btn btn-outline-primary btn-sm ddlBox"></asp:DropDownList>
                 </div>
                 <div class="btnSwap mt-2">
                     <%-- Change this into swap icon --%>
-                    <asp:Button ID="btnSwap" runat="server" Text="Swap" OnClick="btnSwap_Click"/>
+                    <asp:ImageButton ID="btnSwap" runat="server" ImageUrl="../../Image/SwapImage.png" CssClass="btnSwap" OnClick="btnSwap_Click"/>
                 </div>
                 <div class="ddl ddlFrom mt-2">
                     <asp:Label ID="Label2" runat="server" Text="To : "></asp:Label>
-                    <asp:DropDownList ID="ddlTo" runat="server" CssClass="btn btn-outline-primary btn-sm"></asp:DropDownList>  
+                    <asp:DropDownList ID="ddlTo" runat="server" CssClass="btn btn-outline-primary btn-sm ddlBox"></asp:DropDownList>  
                 </div>
                 <div class="button mt-5">
                     <asp:Button ID="btnClear" runat="server" Text="Clear" OnClick="btnClear_Click" CssClass="btn btn-secondary"/>
